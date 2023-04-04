@@ -263,6 +263,10 @@ input:checked+.slider::before {
 
 /* Media Query: Tablets or Smaller */
 @media screen and (max-width:850px) {
+  body{
+    overflow: hidden;
+    }
+    
   header {
     display: flex;
     flex-direction: row;
@@ -322,7 +326,7 @@ input:checked+.slider::before {
   .buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 0.5em;
+    column-gap: 0.2em;
     row-gap: 1em;
   }
 
