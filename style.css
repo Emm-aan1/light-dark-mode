@@ -265,6 +265,7 @@ input:checked+.slider::before {
 @media screen and (max-width:850px) {
   body{
     overflow-x: hidden;
+    width: 100vw;
     }
     
   header {
