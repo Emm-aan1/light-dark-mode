@@ -264,7 +264,7 @@ input:checked+.slider::before {
 /* Media Query: Tablets or Smaller */
 @media screen and (max-width:850px) {
   body{
-    overflow: hidden;
+    overflow-x: hidden;
     }
     
   header {
